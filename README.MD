@@ -36,9 +36,15 @@ $ ./DNAC-NOC/dnac_assurance.py
 Now install the telegraf custom script, restart telegraf
 ```buildoutcfg
 sudo cp DNAC-NOC/telegraf.d/custom.conf /etc/telegraf/telegraf.d/
-
+sudo systemctl restart telegraf
 ```
 
-create dashboard
+# Import Dashboard Definition in Grafana
+log into grafana, select + and import json
+![json](images/importjson.png?raw=true "Import JSON")
+
+This will give you an empty dashboard.
+![json](images/ifirst-dash.png?raw=true "First Dashbaord")
+
 
 
