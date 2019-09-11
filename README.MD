@@ -43,6 +43,8 @@ sudo systemctl restart telegraf
 log into grafana, select + create -> import
 ![json](images/first.png?raw=true "Import JSON")
 
+![json](images/2-json.png?raw=true "Import JSON")
+
 Select the jsonfile grafana/dashboard.json
 ![json](images/3-file.png?raw=true "Import JSON")
 
@@ -51,6 +53,9 @@ Then add the dashboard
 
 This will give you an empty dashboard.
 ![json](images/first-dash.png?raw=true "First Dashbaord")
+
+Soon you wil see updated data
+![json](images/final.png?raw=true "First Dashbaord")
 
 
 
