@@ -40,11 +40,17 @@ sudo systemctl restart telegraf
 ```
 
 # Import Dashboard Definition in Grafana
-log into grafana, select + and import json
+log into grafana, select + create -> import
+![json](images/first.png?raw=true "Import JSON")
+
+Select the jsonfile grafana/dashboard.json
+![json](images/3-file.png?raw=true "Import JSON")
+
+Then add the dashboard
 ![json](images/importjson.png?raw=true "Import JSON")
 
 This will give you an empty dashboard.
-![json](images/ifirst-dash.png?raw=true "First Dashbaord")
+![json](images/first-dash.png?raw=true "First Dashbaord")
 
 
 
