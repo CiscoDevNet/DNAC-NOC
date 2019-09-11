@@ -16,7 +16,7 @@ dnac = api.DNACenterAPI(base_url='https://{}:443'.format(DNAC),
                                 username=DNAC_USER,password=DNAC_PASSWORD,verify=False)
 
 network_health= dnac.networks.get_overall_network_health(timestamp='')
-print (json.dumps(network_health,indent=2))
+#print (json.dumps(network_health,indent=2))
 
 timestamp = int(time.time() * 1000)
 client_health= dnac.clients.get_overall_client_health(timestamp='{}'.format(timestamp))
