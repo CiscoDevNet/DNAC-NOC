@@ -3,12 +3,17 @@
 
 ###  Setup 
 
+I am going to assume an directory /opt/telegraf
+
 create a vitualenv
 ```buildoutcfg
 python3 -mvenv env3
-aradford@ubuntu-svr:/opt/telegraf$ source env3/bin/activate
+ source env3/bin/activate
 ```
+
+clone the code.
+
 ```buildoutcfg
-git 
+git clone https://github.com/CiscoDevNet/DNAC-NOC.git
 ```
 
