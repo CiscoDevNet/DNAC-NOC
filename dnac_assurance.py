@@ -5,11 +5,8 @@ import json
 import requests
 # turn off warninggs
 requests.packages.urllib3.disable_warnings()
-import os
-import os.path
-import logging
 from dnac_config import DNAC, DNAC_USER, DNAC_PASSWORD
-from argparse import ArgumentParser
+
 from dnacentersdk import api
 
 dnac = api.DNACenterAPI(base_url='https://{}:443'.format(DNAC),
