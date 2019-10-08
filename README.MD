@@ -29,7 +29,9 @@ Older versions of pip may not install the requirements correctly.
 pip install -U pip
 pip install -r DNAC-NOC/requirements.txt
 ```
-
+### Credentials/Run the Script
+By default the script uses the devnet sandbox.  If you want to change these you can edit the dnac_config.py file.
+You are able to either edit the defaults, or use environment variables if you are familiar with them.
 
 Finallly, test the script.  
 Should see something like this.  
