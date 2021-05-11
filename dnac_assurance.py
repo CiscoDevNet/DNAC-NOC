@@ -10,7 +10,7 @@ from dnac_config import DNAC, DNAC_USER, DNAC_PASSWORD
 from dnacentersdk import api
 
 dnac = api.DNACenterAPI(base_url='https://{}:443'.format(DNAC),
-                                username=DNAC_USER,password=DNAC_PASSWORD,verify=False)
+                                username=DNAC_USER,password=DNAC_PASSWORD,verify=False,version="1.3.0")
 
 network_health= dnac.networks.get_overall_network_health(timestamp='')
 #print (json.dumps(network_health,indent=2))
